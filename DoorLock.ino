@@ -238,18 +238,18 @@ void loop()
 
 				//if (!mqtt.IsMqttStart())
 				//{
-				//	// Check if SMS is present and send message to TreatCommand method
-				//	if (Sim800.checkSMS())
-				//	{
-				//		// Launch SMS treatment if present
-				//		if (!Sim800.ReadSMSTreatment(smsTreatCommand))
-				//		{
-				//			if (errorCounter++ > MAX_SMS_READING_ERROR)
-				//				bootState = FAULT_CYCLE;
-				//		}
-				//		else
-				//			errorCounter = 0;
-				//	}
+					// Check if SMS is present and send message to TreatCommand method
+					if (Sim800.checkSMS())
+					{
+						// Launch SMS treatment if present
+						if (!Sim800.ReadSMSTreatment(smsTreatCommand))
+						{
+							if (errorCounter++ > MAX_SMS_READING_ERROR)
+								bootState = FAULT_CYCLE;
+						}
+						else
+							errorCounter = 0;
+					}
 				//}
 
 				// Reset the bootState value to 1
