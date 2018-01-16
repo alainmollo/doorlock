@@ -1,7 +1,7 @@
 /*
 DoorLock.ino
 
-Copyright (c) 2015, Arduino LLC
+Copyright (c) 2017, Alain Mollo
 Original code (pre-library): Copyright (c) 2016, Alain Mollo
 
 This library is free software; you can redistribute it and/or
