@@ -1,0 +1,1 @@
+Faire en sorte que la librairie MQTT soit avertie des retour de Sim800 (=> CheckSMS) par une méthode de type callback
